@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Helmet } from "react-helmet";
+import titlePic from "../src/assets/images/title.png";
+import RightNavigation from "./components/RightNavigation";
+import TopNavigation from "./components/TopNavigation";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Web site created using create-react-app"
+        />
+        <link
+          rel="stylesheet"
+          href={titlePic}
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+        />
+        <title>Algorithm Pars</title>
+      </Helmet>
+      <TopNavigation />
+      <RightNavigation />
     </div>
   );
-}
+};
 
 export default App;

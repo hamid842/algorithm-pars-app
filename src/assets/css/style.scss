@@ -1,0 +1,57 @@
+@font-face {
+  font-family: IranSans;
+  src: url(../font/WebFonts/fonts/woff/IRANSansWeb.woff);
+}
+.body {
+  font-family: IranSans;
+}
+
+.right-navigation {
+  width: 155px;
+  height: 100%;
+  right: 0;
+  position: relative;
+  float: right;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.28);
+  background-color: #ffffff;
+  text-align: center;
+  position: absolute;
+}
+.user-pic {
+  width: 49px;
+  height: 49px;
+  object-fit: contain;
+  margin-top: 8.5px;
+}
+.online-sign {
+  width: 10px;
+  height: 10px;
+  background-color: #2dc500;
+  display: inline-block;
+}
+.name {
+  font-family: IranSans;
+}
+.first-name,
+.last-name {
+  height: 14px;
+  text-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.16);
+  font-family: IRANSans;
+  font-size: 9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #023232;
+}
+.top-navigation {
+  height: 24.5px;
+  width: 100%;
+  top: 0;
+  position: relative;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.28);
+  background-color: #ffffff;
+  text-align: center;
+}
