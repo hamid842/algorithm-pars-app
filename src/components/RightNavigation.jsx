@@ -3,8 +3,8 @@ import userPic from "../assets/images/user-pic.png";
 
 class RightNavigation extends Component {
   state = {
-    firstName: "حمید",
-    lastName: "محمدی",
+    firstName: " امیر حسین",
+    lastName: "شادانلو",
     role: "کاربر ارشد",
   };
   render() {
@@ -13,14 +13,13 @@ class RightNavigation extends Component {
       <div className="right-navigation ">
         <div className="container">
           <div className="user">
-            <span className="online-sign rounded-circle"></span>
             <img src={userPic} alt="" className="user-pic rounded-circle " />
+            <span className="online-sign rounded-circle "></span>
             <p className="name">
-              <span className="first-name m-1">{firstName}</span>
-              <span className="last-name">{lastName}</span>
-            </p>
-            <p>
-              <span>{role}</span>
+              <span className="first-name">{firstName}</span>&nbsp;
+              <span className="last-name ">{lastName}</span>
+              <br />
+              <small className="role">{role}</small>
             </p>
           </div>
         </div>

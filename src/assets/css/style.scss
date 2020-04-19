@@ -2,12 +2,13 @@
   font-family: IranSans;
   src: url(../font/WebFonts/fonts/woff/IRANSansWeb.woff);
 }
+
 .body {
   font-family: IranSans;
 }
 
 .right-navigation {
-  width: 155px;
+  width: 20%;
   height: 100%;
   right: 0;
   position: relative;
@@ -18,16 +19,20 @@
   position: absolute;
 }
 .user-pic {
-  width: 49px;
-  height: 49px;
+  width: 7.174vw;
+  height: 7.174vw;
   object-fit: contain;
-  margin-top: 8.5px;
+  margin-top: 1.24vw;
+  position: relative;
 }
 .online-sign {
-  width: 10px;
-  height: 10px;
+  width: 1.46vw;
+  height: 1.46vw;
   background-color: #2dc500;
   display: inline-block;
+  position: absolute;
+  top: 1.46vw;
+  right: 7vw;
 }
 .name {
   font-family: IranSans;
@@ -37,7 +42,7 @@
   height: 14px;
   text-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.16);
   font-family: IRANSans;
-  font-size: 9px;
+  font-size: 1.31vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -45,13 +50,62 @@
   letter-spacing: normal;
   text-align: left;
   color: #023232;
+  top: 4.75vw;
+}
+.role {
+  font-size: 1.17vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  top: 12vw;
 }
 .top-navigation {
-  height: 24.5px;
-  width: 100%;
+  height: 3.513vw;
+  width: 80%;
   top: 0;
   position: relative;
   box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.28);
   background-color: #ffffff;
-  text-align: center;
+  float: left;
+}
+
+.menu-icon {
+  width: 3.36vw;
+  height: 1.75vw;
+  float: right;
+  margin-top: 0.88vw;
+}
+.user-info {
+  height: 3.513vw;
+  width: 80%;
+  top: 0;
+  position: relative;
+  left: 5.12vw;
+  display: inline-block;
+}
+.algo-pars {
+  font-size: 1.24vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  color: #707070;
+  margin-top: 0.88vw;
+}
+.arrow-down {
+  color: darken($color: #707070, $amount: 0);
+  margin-top: 0.88vw;
+}
+.setting-icon {
+  color: #000000;
+  margin-left: 3.9vw;
+  margin-top: 0.88vw;
+}
+.user-icon {
+  margin-top: 0.88vw;
 }
